@@ -1,6 +1,6 @@
 import time
 from coppeliasim_zmqremoteapi_client import RemoteAPIClient
-from fuzzy_logic import fuzzy_logic, pwm_to_speed, calculate_distance, calculate_angle
+from fuzzy_logic_flc1 import fuzzy_logic, pwm_to_speed, calculate_distance, calculate_angle
 from graph import plot_data, initialize_file, log_data,diagraam
 import math  
 
