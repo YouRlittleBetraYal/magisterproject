@@ -68,7 +68,7 @@ def fuzzification_right(sensor_value):
         [-60.0, 0.0, 0.0, 60.0],           # ZA
         [0.0, 60.0, 60.0, 120.0],          # PSA
         [60.0, 120.0, 120.0, 180.0],       # PAA
-        [120.0, 179.0, 179.0, 180.0],      # PBA
+        [179.0, 179.5, 179.5, 180.0],      # PBA
     ]
     
     categories = ["NBA", "NAA", "NSA", "ZA", "PSA", "PAA", "PBA"]
